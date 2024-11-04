@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://cdn.jim-nielsen.com/ios/512/weather-2019-02-07.png?rf=1024" alt="Logo" class="logo">
+        <h1>WeatherTracker</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="https://x.com" target="_blank"><img src="https://cdn.brandfetch.io/idS5WhqBbM/w/400/h/400/theme/dark/icon.jpeg?k=bfHSJFAPEG" alt="X" class="socialLogo"></a></li>
+                <li><a href="https://facebook.com" target="_blank"><img src="https://cdn.brandfetch.io/idpKX136kp/theme/dark/symbol.svg?k=bfHSJFAPEG" alt="Facebook"class="socialLogo"></a></li>
+                <li><a href="https://linkedin.com" target="_blank"><img src="https://cdn.brandfetch.io/idJFz6sAsl/theme/dark/logo.svg?k=bfHSJFAPEG" alt="Linkedin"class="socialLogo"></a></li>
+
+            </ul>
+        </nav>
+        <button id="themeToggle" class="toggleBtn">Light/Dark Mode</button>
+    </header>
+
+    <main>
+        <div class="weather-container">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="getWeatherBtn" class="weatherBtn">Get Weather</button>
+            <div id="weatherInfo" class="weather-info">
+                <p>No information to be displayed</p>
+            </div>
+        </div>
+        <aside class="side-panel">
+            <h2>Fun Weather Facts</h2>
+            <ul id="funFactsList">
+                <li>Lightning strikes the Earth about 100 times every second.</li><br>
+                <li>One inch of rain equals about 1/12 of an inch of snow.</li><br>
+                <li>The world's largest snowflake was recorded at 15 inches wide.</li><br>
+                <li>There are approximately 1,800 thunderstorms occurring at any given moment.</li><br>
+                <li>The place with the most rainfall is Mawsynram, India, with an average of 467.4 inches (nearly 39 feet) of rain annually.</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Weather Checker. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

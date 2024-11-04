@@ -1,0 +1,154 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 136, 255);
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.socialLogo {
+    height: 20px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    background-image: url('https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?cs=srgb&dl=pexels-elia-clerici-282848-912110.jpg&fm=jpg');
+
+}
+
+.weather-container {
+    margin-top: 50px;
+    text-align: center;
+    flex: 6;
+}
+
+.side-panel {
+    flex: 1;
+    background-color: #e9ecef;
+    padding: 10px;
+    border-left: 2px solid #c9c9c9;
+}
+
+.side-panel h2 {
+    margin-top: 0;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 10px; 
+    border: solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+button {
+    padding: 10px;
+    background-color: #2b92ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.weatherBtn {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.weatherBtn:hover {
+    background-color: #1385ff;
+}
+
+.toggleBtn {
+    font-size: 15px; 
+    margin-bottom: 2px;
+}
+
+.toggleBtn:hover {
+    text-decoration: underline;
+}
+
+.weather-info {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #a4a4a4;
+    border-radius: 5px;
+    background-color: white;
+    margin: 30px 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    text-align: center;
+
+}
+
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark header {
+    background-color: #1E1E1E;
+}
+
+body.dark main {
+    background-color: #181818;
+}
+
+body.dark .side-panel {
+    background-color: #2C2C2C;
+}
+
+body.dark button {
+    background-color: #1E1E1E;
+}
+
+body.dark .weather-info {
+    background-color: #2C2C2C;
+    border-color: #3E3E3E;
+}
+
+body.dark .side-panel{
+    border-color: #3E3E3E;
+}
